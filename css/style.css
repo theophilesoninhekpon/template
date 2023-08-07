@@ -9,12 +9,14 @@ html{
 body {
 	margin: 0;
 	padding: 0;
-	margin-inline: auto;
+	/* margin-inline: auto; */
 	font-family: Inter;
-	max-width: 100%;
+	/* max-width: 1500px; */
 	text-align: center;
-	line-height: 1.5
+	line-height: 1.5;
+	width : 100%;
 }
+
 /* ********************
 les généralités
 *********************** */
@@ -55,9 +57,18 @@ CLASSE UTILITAIRE
 	background-color: #c72929;
 	color: white;
 }
+
+.wrapper {
+	max-width: 1500px;
+	margin-inline: auto;
+}
 /* ***********************************************************
 HEARDER
 ********************************************************** */
+header {
+	background-color: #c72929;
+}
+
 .TextProm p {
 	background-color: #323232;
 	color: white;
@@ -69,26 +80,35 @@ HEARDER
 .navigation {
 	background-color: #c72929;
 	color: white;
+	/* max-width: 1500px; */
+	margin-inline: auto;
 	font-size: 25px;
 }
-.navigation img {
-	margin-left: 1.5rem;
-}
+/* .navigation img {
+	margin-left: 6rem;
+} */
+
 
 .navigation a {
 	color: white;
 	margin-right: 1.5rem;
 }
-.hero {
+/* .hero {
 	position: relative;
 	text-align: center;
 	color: white;
-}
+	margin-inline: auto;
+} */
 .hero h1 {
 	font-size: 94px;
 	margin-bottom: 0.2rem;
 }
-.heroText {
+
+.bgc {
+	background-image: url('./ressources/images/');
+	/* background-color: black; */
+}
+/* .heroText {
 	position: absolute;
 	top: 8px;
 	left: 16px;
@@ -97,7 +117,7 @@ HEARDER
 	margin-right: 40rem;
 	margin-left: 5rem;
 	margin-top: 0.1rem;
-}
+} */
 .hero a {
 	background-image: linear-gradient(to right,#c72929, #c72929, #691212);
 	color: white;
@@ -146,17 +166,19 @@ Galerie
 	margin-right: 8rem;
 }
 button{
-	background-image: linear-gradient(to right,#c72929, #c72929, #691212);
+	background-image: linear-gradient( to right,#fff,#fff);
+	border: #fff;
 	padding: 0.5rem 2.5rem;;
-	color: white;
-	border-radius: 15px;
-	font-size: 25px;
+	color: #c72929;
+	border-radius: 10px;
+	font-size: 30px;
 	margin-top: 2rem;
+	font-weight: 600;
 	transition: all 1s;
 }
 button:hover{
-	background-image: linear-gradient( to right, rgb(245, 145, 145),#c72929);
-	color: #691212;
+	background-image: linear-gradient( to right,#323232,#323232);
+	color: white;
 }
 /* ************
 Articles
