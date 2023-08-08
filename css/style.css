@@ -224,18 +224,17 @@ Articles
 	margin-bottom: 2rem;
 	margin-inline: auto;
 	text-align: justify;
-	width: 700px;
 	padding: 1rem;
     border-bottom-right-radius: 30px;
     font-size: 20px;
+
 	
 	
 }
 .articlecolum{
 	display: grid;
-/* columns: 2; */
-grid-template-columns: 50% 50% ;
-column-gap: 4em;
+grid-template-columns: 1fr 1fr ;
+column-gap: 2rem;
 }
 .sectionArticles h3{
 	font-size: 30px;
