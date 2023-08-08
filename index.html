@@ -1,176 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/f2bff60a32.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <title>Accueil - Template</title>
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="articles.html">
-</head>
-
-<body>
-    <div>
-        <div>
-            <header>
-                <div class="TextProm">
-                    <p>Texte promo</p>
-                </div>
-                <nav class="navigation flex wrapper">
-                    <a href="index.html"><img src="./ressources/images/LOGO NOIR.png" alt="LOGO" width="100"
-                            height="30" /></a>
-                    <div>
-                        <ul class="flex">
-                            <li>
-                                <a href="index.html">
-                                    Accueil
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#LaGalerie">
-                                    Galerie
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#LesArticles">
-                                    Articles
-                                </a>
-                            </li>
-                        </ul>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/f2bff60a32.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+		<title>Accueil - Template</title>
+        <link rel="stylesheet" href="css\style.css">
+        <link rel="stylesheet" href="articles.html">
+	</head>
+	<body>
+		<div>
+			<div>
+                <header>
+                    <div class="TextProm">
+                                    <p>Texte promo</p>
+                                </div>
+                    <nav class="navigation flex wrapper">
+                        <a href="index.html"><img src="./ressources/images/LOGO NOIR.png" alt="LOGO" width=100"" height="30" /></a>
+                        <div>
+                                        <ul class="flex">
+                                            <a href="index.html">
+                                                <li>Accueil</li>
+                                            </a>
+                                            <a href="#LaGalerie">
+                                                <li>Galerie</li>
+                                            </a>
+                                            <a href="#LesArticles">
+                                                <li>Articles</li>
+                                            </a>
+                                        </ul>
+                                    </div>
+                    </nav>
+                </header>
+            </div>
+            <main>
+                <div class="bgc">
+                    <div class="black">
+                        <article class="hero wrapper">
+                            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus consequuntur hic voluptatibus repudiandae explicabo ullam atque neque laudantium culpa velit.</p>
+                            <a href="#">En savoir plus</a>
+                        </article>
                     </div>
-                </nav>
-            </header>
-        </div>
-        <main>
-            <div class="bgc">
-                <div class="black">
-                    <article class="hero wrapper">
-                        <h1>Lorem ipsum dolor sit <br> amet consectetur.</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus consequuntur hic
-                            voluptatibus repudiandae explicabo ullam atque neque laudantium culpa velit. Lorem ipsum
-                            dolor sit, amet consectetur adipisicing elit. Voluptates laboriosam vitae.</p>
-                        <a href="#">En savoir plus</a>
+                </div>
+                <div class="flexcheck wrapper">
+                    <div>
+                        <span class='far fa-check-circle colorcheck'></span>
+                        <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+                    </div>
+                    <div>
+                        <span class='far fa-check-circle colorcheck'></span>
+                        <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+                    </div>
+                    <div>
+                        <span class='far fa-check-circle colorcheck'></span>
+                        <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+                    </div>
+                </div class="check wrapper">
+                <article class="whoweare wrapper">
+                    <h2 class="RedBack h2form">Qui somme nous ?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, exercitationem consequatur nihil sit suscipit dicta ab deleniti minima consequuntur provident hic quo dignissimos quisquam. Illum odit tempore quo quaerat eaque quam, molestias eum? Quia repellat, aperiam voluptatibus esse possimus illum vero officiis, dicta dolorem praesentium sit ex at recusandae quae?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis error corporis non maiores neque ipsam reprehenderit suscipit molestias quae perspiciatis dolorem eligendi sit nostrum, eius velit modi, est culpa iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe explicabo incidunt itaque error rem mollitia, ad corporis nesciunt repellat sit.</p>
+                </article>
+                <div class="galerie">
+                    <article class="wrapper" id="LaGalerie">
+                        <h2 class="galerieH2">Notre Galerie</h2>
+                        <div class="flex">
+                            <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
+                            <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
+                            <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
+                        </div>
+                         <a href="galerie.html">
+                             <button type="button">Voir Plus</button>
+                        </a>
                     </article>
                 </div>
-            </div>
-            <div class="flexcheck wrapper">
-                <div>
-                    <span class='far fa-check-circle colorcheck'></span>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
+                <article id="LesArticles" class="wrapper">
+                    <h2 class="RedBack h2form">Nos Articles</h2>
+                    <section class="sectionArticles">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus consequatur quos et animi dolorum facere.</p>
+                        <a href="articles.html"   class="RedBack buttonSuite">Lire la suite <span class="fa fa-play"></span></a>
+                    </section>
+                    <section class="sectionArticles">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus consequatur quos et animi dolorum facere.</p>
+                        <a href="article-2.html"  class="RedBack buttonSuite">Lire la suite <span class="fa fa-play"></span></a>
+                    </section>
+                    <section class="sectionArticles">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus consequatur quos et animi dolorum facere.</p>
+                        <a href="article-3.html"  class="RedBack buttonSuite">Lire la suite <span class="fa fa-play"></span></a>
+                    </section>
+                    <section class="sectionArticles">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus consequatur quos et animi dolorum facere.</p>
+                        <a href="article-4.html"  class="RedBack buttonSuite">Lire la suite <span class="fa fa-play"></span></a>
+                    </section>
+                </article>
+                <div class="RedBack">
+                    <article class="flex discovery wrapper">
+                        <div>
+                            <h3>Lorem ipsum dolor sit amet <br> consectetur.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                        <a href="#" class="decouvrir">Découvrir</a>
+                    </article>
                 </div>
-                <div>
-                    <span class='far fa-check-circle colorcheck'></span>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
-                </div>
-                <div>
-                    <span class='far fa-check-circle colorcheck'></span>
-                    <p>Lorem ipsum dolor sit <br> amet consectetur.</p>
-                </div>
-            </div class="check wrapper">
-            <article class="whoweare wrapper">
-                <h2 class="RedBack h2form">Qui somme nous ?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, exercitationem consequatur nihil sit
-                    suscipit dicta ab deleniti minima consequuntur provident hic quo dignissimos quisquam. Illum odit
-                    tempore quo quaerat eaque quam, molestias eum? Quia repellat, aperiam voluptatibus esse possimus
-                    illum vero officiis, dicta dolorem praesentium sit ex at recusandae quae?Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Quis error corporis non maiores neque ipsam reprehenderit suscipit
-                    molestias quae perspiciatis dolorem eligendi sit nostrum, eius velit modi, est culpa iusto. Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Saepe explicabo incidunt itaque error rem
-                    mollitia, ad corporis nesciunt repellat sit.</p>
-            </article>
-            <div class="galerie">
-                <article class="wrapper" id="LaGalerie">
-                    <h2 class="galerieH2">Notre Galerie</h2>
+                <footer class="footer">
                     <div class="flex">
-                        <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
-                        <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
-                        <div><img src="./ressources/images/Image galerie.jpg" alt="galerie"></div>
-                    </div>
-                    <a href="galerie.html">
-                        <button type="button">Voir Plus</button>
-                    </a>
-                </article>
-            </div>
-            <article id="LesArticles" class="wrapper">
-                <h2 class="RedBack h2form">Nos Articles</h2>
-                <div class="articlecolum">
-                    <section class="sectionArticles">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia
-                            deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus
-                            consequatur quos et animi dolorum facere.</p>
-                        <a href="articles.html" class="RedBack buttonSuite">Lire la suite <span
-                                class="fa fa-play"></span></a>
-                    </section>
-                    <section class="sectionArticles">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia
-                            deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus
-                            consequatur quos et animi dolorum facere.</p>
-                        <a href="article-2.html" class="RedBack buttonSuite">Lire la suite <span
-                                class="fa fa-play"></span></a>
-                    </section>
-                    <section class="sectionArticles">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia
-                            deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus
-                            consequatur quos et animi dolorum facere.</p>
-                        <a href="article-3.html" class="RedBack buttonSuite">Lire la suite <span
-                                class="fa fa-play"></span></a>
-                    </section>
-                    <section class="sectionArticles">
-                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus tempore molestiae officia
-                            deserunt ratione nostrum reprehenderit, beatae nemo culpa eaque recusandae repellat ex doloribus
-                            consequatur quos et animi dolorum facere.</p>
-                        <a href="article-4.html" class="RedBack buttonSuite">Lire la suite <span
-                                class="fa fa-play"></span></a>
-                    </section>
-                </div>
-            </article>
-            <div class="RedBack">
-                <article class="flex discovery wrapper">
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet <br> consectetur.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                    <a href="#" class="decouvrir">Découvrir</a>
-                </article>
-            </div>
-            <footer class="footer">
-                <div class="flex">
-                    <a href="index.html"><img src="./ressources/images/LOGO BLANC.png" alt="logo2"></a>
-                    <ul class="flex">
-                        <li>
+                        <a href="index.html"><img src="./ressources/images/LOGO BLANC.png" alt="logo2"></a>
+                        <ul class="flex">
                             <a href="#LesArticles">
-                                Nos articles
+                                <li>Nos articles</li>
                             </a>
-                        </li>
-                        <li>
                             <a href="#LaGalerie">
-                                Galerie
+                                <li>Galerie</li>
                             </a>
-                        </li>
-                        <li>
                             <a href="#">
-                                Autres
+                                <li>Autres</li>
                             </a>
-                        </li>
-                    </ul>
-                </div>
-                <a href="#"><span class='fab fa-facebook colored1'></span></a>
-                <a href="#"><span class='fab fa-instagram colored2'></span></a>
-                <a href="#"><span class='fab fa-linkedin colored3'></span></a>
-                <a href="#"><span class='fab fa-whatsapp colored4'></span></a>
-                <div class="copyright">
-                    <p>&copy; Developed and Designed by HIGHFIVE UNIVERSITY.All right reserved</p>
-                </div>
-            </footer>
-        </main>
-    </div>
-</body>
+                        </ul>
+                    </div>
+                    <a href="#"><span class='fab fa-facebook'></span></a>
+                    <a href="#"><span class='fab fa-instagram'></span></a>
+                    <a href="#"><span class='fab fa-linkedin'></span></a>
+                    <a href="#"><span class='fab fa-whatsapp'></span></a>
+                    <div class="copyright">
+                        <p>&copy; Développé et Design par HIGHFIVE UNIVERSITY.Tous droits réservés</p>
+                    </div>
+                </footer>
+
+            </main>
+		</div>
+	</body>
 </html>
