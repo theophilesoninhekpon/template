@@ -60,6 +60,11 @@ CLASSE UTILITAIRE
 	justify-content: space-between;
 	gap: 1.5rem;
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
 .RedBack {
 	background-color: #c72929;
 	color: white;
