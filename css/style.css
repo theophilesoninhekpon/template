@@ -53,6 +53,16 @@ CLASSE UTILITAIRE
 	justify-content: space-between;
 	gap: 1.5rem;
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 50px;
+	padding: 50px;
+	margin-bottom: 1rem;
+	background-color: #fff;
+}
+
 .RedBack {
 	background-color: #c72929;
 	color: white;
@@ -274,4 +284,15 @@ Copyright
 	padding: 0.3rem;
 	margin-top: 1rem;
 	font-size: 18px;
+}
+/*=========================================
+	GALERIE GRID
+===========================================*/
+.galerie-grid {
+	background-color: #fff;
+}
+
+.h2-grid {
+	color: #fff;
+	background-color: #c72929;
 }
