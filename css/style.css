@@ -31,7 +31,8 @@ li {
 }
 
 .h2form {
-	margin-inline: 450px;
+	padding-left: 3%;
+	/* margin-right: 36%; */
 	font-size: 40px;
 
 }
@@ -216,7 +217,10 @@ Galerie
 .galerieH2 {
 	background-color: white;
 	color: #c72929;
-	margin-inline: 380px;
+	width: fit-content;
+	padding: 0 40px 0 40px;
+	/* padding-inline: 40px; */
+	margin-left: 38%;
 	font-size: 40px;
 
 }
@@ -224,6 +228,7 @@ Galerie
 .galerie {
 	background-color: #c72929;
 	padding-block: 1rem;
+	text-align: center;
 }
 
 .galerie img {
@@ -534,4 +539,48 @@ ul.flex.block {
 	.black{
 		padding-bottom: 2rem;
 	}
+
+	
+/* ****************************
+           MAIN
+***************************** */
+.flexcheck {
+	flex-direction: column;
+	/* display: flex;
+	justify-content: space-around;
+	margin-top: 3rem;
+	font-size: 20px; */
+
+}
+
+.h2form {
+	margin-inline: 10px;
+	font-size: 40px;
+
+}
+
+/* *********
+Qui somme nous
+************* */
+.whoweare {
+	padding-inline: 40px;
+	text-align: justify;
+	/* font-size: 20px; */
+}
+
+.h2form{
+	text-align: center;
+}
+
+.galerie img {
+	width: 100%;
+	/* max-width: 100;
+	max-height: 300; */
+	margin-right: 8rem;
+}
+
+.articlecolum{
+grid-template-columns: 1fr;
+column-gap: 2rem;
+}
 }

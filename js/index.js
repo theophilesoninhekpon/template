@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const Copy = document.getElementById("copywrite");
     const Body = document.querySelector("body");
     const elementMenu = document.querySelector(".li");
+
     console.log(menu, elementMenu);
 
     menu.addEventListener('click', () => {
@@ -12,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
         elementMenu.classList.toggle('block')
     })
 
-    if (!Copy) {
-        Body.innerHTML = " ";
-    }
+    // if (!Copy) {
+    //     Body.innerHTML = " ";
+    // }
 
 })
